@@ -1,0 +1,16 @@
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(223, 208, 184, 0.637);
+  }
+
+
+.Header{
+    text-align: center;
+    color: rgb(223, 208, 184);
+    background-color: rgb(21, 52, 72);
+    padding: 10px;
+    margin-bottom: 30px;
+}
+

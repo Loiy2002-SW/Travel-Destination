@@ -1,0 +1,27 @@
+
+.CardsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+
+}
+
+
+.TourCard{
+
+    text-align: center;
+    color: rgb(223, 208, 184);
+    background-color: rgb(60, 91, 111);
+    max-width: fit-content;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5%;
+   
+}
+
+.TourCardImage{
+    width: 250px;
+    height: 150px;
+    border-radius: 5%;
+    margin-bottom: 10px;
+}
