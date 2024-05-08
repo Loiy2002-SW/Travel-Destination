@@ -1,5 +1,6 @@
 import { Link, useLocation } from 'react-router-dom';
 import './Header.css'
+import Navbar from '../navbar/Navbar';
 
 
 
@@ -15,9 +16,7 @@ export default function Header(){
         <div className="Header">
             <h1>Travel Destaination</h1>
             {location.pathname !== '/' && (
-                <Link to={'/'}>
-                    <button className='HomeButton'>Home</button>
-                </Link>
+                <Navbar/>
             )}
         </div>
     );
