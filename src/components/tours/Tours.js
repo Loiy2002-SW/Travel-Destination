@@ -1,5 +1,6 @@
 
 import toursData from '../../data/db.json'
+import Tour from './tour/Tour.js'
 import './Tours.css'
 
 export default function Tours(){
@@ -7,21 +8,12 @@ export default function Tours(){
     
     return (
 
-        <div className="CardsContainer">
-            {toursData.map((tour)=> <Tour key={tour.id} data={tour}/>)}
-        </div>
+        <section className="CardsContainer">
+            {
+            toursData.map((tour)=> <Tour key={tour.id} data={tour}/>)
+            }
+        </section>
     );
 
 }
 
-function Tour(prop){
-
-    return (
-        <div className="TourCard">
-            <img className="TourCardImage" src={prop.data.image} alt= {prop.data.info}></img>
-            <h2>{prop.data.name}</h2> 
-
-        </div>
-    );
-
-}
