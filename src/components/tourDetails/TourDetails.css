@@ -1,0 +1,27 @@
+
+.CityDetailsContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.TourDetailsCard{
+    text-align: center;
+    color: rgb(223, 208, 184);
+    background-color: rgb(60, 91, 111);
+    max-width: min-content;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10%;
+   
+}
+
+.CityImage{
+    width: 400px;
+    height: 200px;
+    border-radius: 5%;
+    margin-bottom: 10px;
+}
+
+
