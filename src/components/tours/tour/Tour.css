@@ -10,6 +10,18 @@
    
 }
 
+.TourCard:hover{
+
+    text-align: center;
+    color: rgb(223, 208, 184);
+    background-color: rgb(47, 68, 82);
+    max-width: fit-content;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5%;
+   
+}
+
 .TourCardImage{
     width: 250px;
     height: 150px;
