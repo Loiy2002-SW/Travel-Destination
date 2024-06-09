@@ -4,6 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 import TourDetails from './components/tourDetails/TourDetails';
 import TestComponent from './components/TestComponent';
 
+//app
 export default function App() {
   return (
     <Routes>
